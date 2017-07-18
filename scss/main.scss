@@ -1,0 +1,29 @@
+/*
+	FullWebsite Bootstrap Sass Theme
+	Author: Satyam Singh
+	Version: 0.0.1
+*/
+
+/* BASE - Base styles, variables, mixins, etc */
+
+@import 'base/_variable.scss';
+@import 'base/_mixins.scss';
+@import 'base/_normalize.scss';
+@import 'base/_base.scss';
+
+/* MODULES - Individual site components */
+
+@import 'module/_typography.scss';
+@import 'module/_blocks.scss';
+@import 'module/_buttons.scss';
+@import 'module/_section.scss';
+@import 'module/_components.scss';
+@import 'module/_forms.scss';
+
+/* LAYOUTS - Page layout styles */
+
+@import 'layouts/_nav.scss';
+@import 'layouts/_header.scss';
+@import 'layouts/_footer.scss';
+@import 'layouts/_blog.scss';
+@import 'layouts/_mobile.scss';
